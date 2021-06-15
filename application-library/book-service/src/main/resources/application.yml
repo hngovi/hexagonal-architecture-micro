@@ -1,0 +1,5 @@
+library:
+  topic-name: new-hotbook-topic
+
+kafka:
+  bootstrapAddress: localhost:9091

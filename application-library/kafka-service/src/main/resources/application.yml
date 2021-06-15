@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  kafka:
+    consumer:
+      group-id: library-app
+      auto-offset-reset: earliest
+    bootstrap-servers: localhost:9091
+
+library:
+  topic-name: new-hotbook-topic
+
